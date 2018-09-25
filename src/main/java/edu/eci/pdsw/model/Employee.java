@@ -17,6 +17,11 @@ public class Employee {
 	public Employee() {
 		super();
 	}
+	
+	@Override
+	public String toString() {
+		return personId + " " + salary + " " + socialSecurityType;
+	}
 
 	/**
 	 * Constructors using fields,
