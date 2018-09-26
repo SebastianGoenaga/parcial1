@@ -19,7 +19,7 @@ import edu.eci.pdsw.validator.ErrorType;
 import edu.eci.pdsw.validator.SalaryValidator;
 
 /**
- * Servlet class for employee validation
+ * Servlet class for employee validationrtrtrtet
  */
 @WebServlet(urlPatterns = "/validate")
 public class ValidateServlet extends HttpServlet {
